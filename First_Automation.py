@@ -32,5 +32,5 @@ if display_title == actual_title_on_the_page:
     print(f"This is the title of the page {display_title}")
 else:
     print("the test failed")
-
+driver.close()
 
